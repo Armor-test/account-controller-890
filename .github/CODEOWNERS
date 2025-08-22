@@ -1,0 +1,38 @@
+# CODEOWNERS file for account-controller-890
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-release @Armor-test/dept-ui @Armor-test/team-research
+
+# Directory ownership
+/components/ @Armor-test/unit-cloud @Armor-test/unit-devops @Armor-test/squad-apps
+/styles/ @Armor-test/dept-automation @Armor-test/team-frontend
+/api/ @Armor-test/team-notifications @Armor-test/squad-mobile @Armor-test/squad-frontend
+/vendor/ @Armor-test/dept-notifications @Armor-test/dept-data @Armor-test/squad-search
+/web/ @Armor-test/squad-ml @Armor-test/squad-cache @Armor-test/unit-design
+/shared/ @Armor-test/dept-test @Armor-test/dept-logging
+/config/ @Armor-test/squad-payments @Armor-test/dept-api @Armor-test/squad-database
+/assets/ @Armor-test/team-core @Armor-test/grp-payments
+/services/ @Armor-test/grp-search @Armor-test/dept-api @Armor-test/squad-api
+/migrations/ @Armor-test/grp-api @Armor-test/dept-release @Armor-test/team-governance
+/test/ @Armor-test/team-research @Armor-test/squad-ux @Armor-test/squad-product
+/hooks/ @Armor-test/squad-payments @Armor-test/grp-integration @Armor-test/squad-frontend
+
+# File type ownership
+*.js @Armor-test/dept-test @Armor-test/squad-research
+*.sql @Armor-test/squad-ux @Armor-test/squad-performance
+*.scss @Armor-test/unit-governance @Armor-test/team-frontend @Armor-test/squad-cloud
+*.proto @Armor-test/squad-database @Armor-test/dept-security
+*.c @Armor-test/grp-ui @Armor-test/unit-governance
+*.jsx @Armor-test/grp-integration @Armor-test/dept-billing @Armor-test/squad-mobile
+*.tsx @Armor-test/unit-design @Armor-test/squad-apps
+*.cpp @Armor-test/squad-apps @Armor-test/grp-integration
+*.tf @Armor-test/squad-ux @Armor-test/team-notifications
+*.scala @Armor-test/dept-api @Armor-test/dept-security @Armor-test/team-reporting
+*.css @Armor-test/team-research @Armor-test/team-frontend @Armor-test/squad-research
+*.yml @Armor-test/dept-reporting @Armor-test/squad-api
+*.config @Armor-test/grp-payments @Armor-test/squad-product
+
+# Security and special files
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+Dockerfile @Armor-test/devops @Armor-test/infra
+package.json @Armor-test/dependency-team @Armor-test/security
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
